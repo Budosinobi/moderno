@@ -233,7 +233,7 @@
 }
 
 //-----PRODUCTS END-----
-//-----PRODUCT-SLIDER START
+//-----PRODUCT-SLIDER START-----
 
 .product-slider{
     padding: 110px 0px 120px;
@@ -263,4 +263,95 @@
     }
 }
 
-//-----PRODUCT-SLIDER END
+//-----PRODUCT-SLIDER END-----
+//-----ADVANTAGES START-----
+
+.advantages{
+    background-color: $bg;
+    padding: 110px 0;
+}
+.advantages__title{
+    color: #fff;
+    padding-bottom: 50px;
+}
+.advantages__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.advantages__item{
+    max-width: 370px;
+    text-align: center;
+    padding: 0 15px;
+    &:hover{
+        .advantages__item-images{
+            background-color: $green;
+            g{
+                fill: #fff;
+                transition: all .3s;
+            }
+        }
+        .advantages__item-title{
+            color: $green;
+        }
+    }
+    &-images{
+        width: 114px;
+        height: 114px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 30px;
+        transition: all .3s;
+    }
+    &-title{
+        margin-bottom: 25px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 24px;
+        transition: all .3s;
+    }
+    &-text{
+        font-size: 15px;
+        color: #b0bec5;
+    }
+}
+.icosvg-1{
+    svg{
+        width: 50px;
+    }
+}
+.icosvg-2{
+    svg{
+        width: 70px;
+    }
+}
+.icosvg-3{
+    svg{
+        width: 86px;
+    }
+}
+
+//-----ADVANTAGES END-----
+//-----AUTHOR START----
+
+.author{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box{
+        min-width: 650px;
+        max-height: 215px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+//-----AUTHOR END-----
