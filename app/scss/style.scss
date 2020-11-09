@@ -372,5 +372,35 @@
     }
 }
 
-
 //-----AUTHOR END-----
+//-----TUTORIAL SNART-----
+
+.tutorial{
+    padding: 70px 0 120px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        max-width: 370px;
+        width: 100%;
+        padding-top: 30px;
+        &-img{
+            min-height: 270px;
+            background-repeat: no-repeat;
+            background-position: center 0;
+            background-size: cover;
+        }
+        &-title{
+            background-color: #f8f8f8;
+            font-size: 24px;
+            color:$bg ;
+            text-align: center;
+            font-weight: 700;
+            padding: 30px 10px;
+        }
+    }
+}
+
+
+//-----TUTORIAL END-----
