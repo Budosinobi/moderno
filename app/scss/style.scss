@@ -402,5 +402,30 @@
     }
 }
 
-
 //-----TUTORIAL END-----
+//-----FOOTER START-----
+
+.footer{
+    background-color: $bg;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.footer__copy{
+    border-top: 1px solid #424d53;
+}
+.footer__copy-text{
+    text-align: center;
+    font-size: 15px;
+    color: #919699;
+    padding: 25px 0;
+}
+.footer__col{
+    max-width: 270px;
+    &-menu{
+        max-width: 220px;
+    }
+}
+
+//-----FOOTER END-----
