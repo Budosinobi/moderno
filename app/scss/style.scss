@@ -345,11 +345,30 @@
     justify-content: center;
     align-items: center;
     &__box{
-        min-width: 650px;
-        max-height: 215px;
+        max-width: 652px;
+        width: 100%;
+        min-height: 215px;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: $green;
+    }
+    &__title{
+        font-size: 30px;
+        line-height: 36px;
+        color: #fff;
+        margin-right: 45px;
+        max-width: 260px;
+        span{
+            font-weight: 700;
+        }
+    }
+    &__link{
+        padding: 12px 42px;
+        background-color: #fff;
+        font-size: 18px;
+        line-height: 36px;
+        color: $bg;
     }
 }
 
